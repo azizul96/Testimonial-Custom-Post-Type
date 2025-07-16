@@ -1,0 +1,111 @@
+/*-------testimonial css start------*/
+
+.ah-testimonial-main-wrapper{
+	padding-bottom: 53px;
+	margin-bottom: 0;
+}
+.ah-testimonial-item-inner {
+	color: #fff;
+}
+.ah-testimonial-content {
+	color: rgb(255 255 255 / 70%);
+	margin-bottom: 40px;
+}
+.ah-testimonial-user-wrapper {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	align-items: center;
+}
+.ah-testimonial-user-img {
+	width: 49px;
+}
+.ah-testimonial-user-img img {
+	width: 100%;
+	border-radius: 50%;
+}
+.ah-testimonial-user-info {
+	width: calc(100% - 49px);
+	padding-left: 13px;
+}
+.ah-testimonial-user-info {
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 1.3;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+}
+
+.ah-testimonial-nav-wrapper .slick-next, 
+.ah-testimonial-nav-wrapper .slick-prev{
+	width: 27px !important;
+	height: 11px !important;
+	opacity: 1 !important;
+}
+.slick-next:before, 
+.slick-prev:before {
+	display: none !important;
+}
+
+ul.slick-dots li {
+	display: inline-block;
+	margin-left: 0;
+	margin-right: 5px !important;
+}
+ul.slick-dots li:last-child {
+	margin-right: 0 !important;
+}
+ul.slick-dots li,
+ul.slick-dots button {
+	width: 6px !important;
+	height: 6px!important;
+}
+ul.slick-dots button {
+	padding: 0!important;
+	border: none !important;
+	border-radius: 50% !important;
+	background: rgb(255 255 255 / 20%)!important;
+}
+ul.slick-dots .slick-active button {
+	background: #fff!important;
+}
+.slick-dots li button::before{
+	display:none;
+}
+
+.ah-testimonial-nav-wrapper {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: flex-start;
+	padding: 0;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+}
+.ah-testimonial-nav-wrapper .slick-prev, 
+.ah-testimonial-nav-wrapper .slick-next, 
+.ah-testimonial-nav-wrapper .slick-dots {
+	position: relative !important;
+	inset: unset !important;
+	transform: unset !important;
+	border: none !important;
+	background: none !important;
+}
+.ah-testimonial-nav-wrapper ul.slick-dots {
+	display: inherit;
+	width: auto !important;
+	order: 2 !important;
+	padding: 0 20px !important;
+}
+.ah-testimonial-nav-wrapper .slick-next{
+	order: 3 !important;
+}
+.slick-arrow svg path{
+	transition: all 0.3s ease-in-out;
+}
+.ah-testimonial-nav-wrapper .slick-arrow:is(:hover,:focus) svg path{
+	stroke: #fff !important;
+}
+
+/*-------testimonial css end------*/
